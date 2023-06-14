@@ -2,7 +2,7 @@ streamlit
 selenium
 pandas
 transformers
-torch=
+torch
 imageio
 requests
 numpy
