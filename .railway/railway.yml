@@ -3,4 +3,4 @@ services:
   - name: streamlit-app
     env:
       - KEY: value
-    command: streamlit run streamlit_app.py
+    command: streamlit run app.py
