@@ -5,7 +5,6 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from webdriver_manager.chrome import ChromeDriverManager
 from time import sleep
 import time
 import requests
@@ -48,7 +47,10 @@ def get_driver():
     options = Options()
     options.add_argument('--disable-gpu')
     options.add_argument('--headless')
-    return webdriver.Chrome(executable_path=ChromeDriverManager().install(), options=options)
+    # Path to your chromedriver.exe
+    path_to_chromedriver = 'chromedriver.exe'
+    return webdriver.Chrome(executable_path=path_to_chromedriver, options=options)
+    
 
 def classify_text(text):
     # Tokenize the text
