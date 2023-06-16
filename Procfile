@@ -1,1 +1,1 @@
-web: streamlit run app.py
+web: pip install -r packages.txt && streamlit run app.py
