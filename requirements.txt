@@ -8,4 +8,4 @@ numpy==1.23.5
 Pillow==9.5.0
 webdriver-manager
 easyocr==1.7.0
-streamlit==1.22.0
+streamlit==1.24.0
