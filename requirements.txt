@@ -1,4 +1,4 @@
-selenium==4.9.1
+selenium==4.11.2
 pandas==1.5.3
 transformers==4.29.2
 torch==2.0.1
